@@ -20,7 +20,8 @@ ini template readme aja biar gak sepi :)
 What things you need to install the software and how to install them.
 
 ```
-Give examples
+node js versi v22.10.0
+npm versi 10.9.0
 ```
 
 ### Installing
@@ -30,7 +31,8 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-Give the example
+npm install
+npm run start
 ```
 
 And repeat
