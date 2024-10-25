@@ -1,5 +1,6 @@
 echo "Stop current docker container if there's any..." 
-docker stop ini-website  > /dev/null 2>&1 && docker rm ini-website > /dev/null 2>&1
+docker stop ini-website > /dev/null 2>&1 
+docker rm ini-website > /dev/null 2>&1
 echo "Building docker images"
 docker build -t ini-web:latest . > /dev/null 2>&1
 echo "Running container"
