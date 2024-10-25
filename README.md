@@ -28,7 +28,7 @@ npm versi 10.9.0
 
 A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
+Install langsung di server
 
 ```
 git clone https://github.com/naufalgholib/testing-website.git
@@ -37,10 +37,10 @@ npm install
 npm run start
 ```
 
-And repeat
+Install pakai docker
 
 ```
-until finished
+bash dockerscript.sh
 ```
 
 End with an example of getting some data out of the system or using it for a little demo.
